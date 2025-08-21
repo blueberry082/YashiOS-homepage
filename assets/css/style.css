@@ -23,7 +23,11 @@ a {
 
 nav {
     width: 100%;
-    background-color: rgb(30, 30, 35);
+    background-color: rgba(30, 30, 35, 0.8);
+}
+
+h1 {
+    font-family: "Urbanist", sans-serif;
 }
 
 .navbar {
