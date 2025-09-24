@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*ホームに適応されるCSS*/
+
+.header-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    aspect-ratio: 1200 / 500;
+    overflow: hidden;
+}
+
+.header-container .header-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-container .header-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.header-text-container {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.header-text-container h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4rem;
+}
+
+.header-text-container h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
